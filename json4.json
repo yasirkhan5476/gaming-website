@@ -1,0 +1,41 @@
+{
+    "played": [
+      {
+        "image": "image/trending5.png",
+        "title": "Grand Theft Auto V",
+        "price": "$42",
+        "downloadLink": "download13.html"
+      },
+      {
+        "image": "image/rocket.jpg",
+        "title": "Rocket League",
+        "price": "Free",
+        "downloadLink": "download3.html"
+      },
+      {
+        "image": "image/trending1.webp",
+        "title": "Cyberpunk 2077",
+        "price": "$70",
+        "downloadLink": "download9.html"
+      },
+      {
+        "image": "image/d1.jpg",
+        "title": "Destiny 2",
+        "price": "Free",
+        "downloadLink": "download8.html"
+      },
+      {
+        "image": "image/trending8.png",
+        "title": "Resident Evil Village",
+        "price": "$56",
+        "downloadLink": "download16.html"
+      },
+      {
+        "image": "image/new6.png",
+        "title": "Pubg PC",
+        "price": "Free",
+        "downloadLink": "download6.html"
+      }
+    ]
+  }
+  

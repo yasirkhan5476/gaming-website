@@ -1,0 +1,16 @@
+{
+    "movies": [
+      {
+        "image": "image/f1.jpg",
+        "title": "Free Guy",
+        "description": "Rewards arrive thick and fast with the new Fame Pass. Unlock the Sam Porter Bridges costume plus many more.",
+        "link": "Play For Free"
+      },
+      {
+        "image": "image/manager1.jpg",
+        "title": "F1® Manager 2023",
+        "description": "The intense world of Formula 1® comes alive for a new season in F1® Manager 2023.",
+        "link": "35.99"
+      }
+    ]
+  }

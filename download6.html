@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epic Games</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="package/swiper-bundle.min.css">
+</head>
+<body>
+    <header>
+         <div class="nav container">
+            <a href="game1.html" class="logo">Game <span>Store</span></a>
+        
+         <div class="nav-icon">
+            <i class="fa-regular fa-bell fa-bounce bx bellicon" ><span></span></i>
+            
+            <div class="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+         </div>
+
+         <div class="menu">
+          <img src="image/menu.png" alt="">
+          <div class="navbar">
+              <li><a href="game1.html">Login</a></li>
+              <li><a href="game1.html">Home</a></li>
+              <li><a href="discover.html">Discover</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contactus.html">Contact us</a></li>
+          </div>
+       </div>
+
+         <!-- notification  -->
+         <div class="notification">
+           <div class="notification-box">
+            <i class="fa-solid fa-circle-check bx"></i>
+            <p>Congratulation,Your Game download successfully</p>
+           </div>
+           <div class="notification-box box-color">
+            <i class="fa-sharp fa-solid fa-circle-xmark bx"></i>
+            <p>Could  not apply changes</p>
+           </div>
+         </div>
+         </div>
+    </header>
+<!-- video -->
+    <div class="video-container container">
+        <video id="myVideo" src="video/PUBG_ BATTLEGROUNDS Cinematic trailer _ PUBG (1).mp4" autoplay muted></video>
+       <div class="next-page">
+           <button id="restartButton">Start Video</button>
+           <button id="muteButton">Mute</button>
+           <button id="unmuteButton">Unmute</button>
+        </div>
+      <!-- about -->
+      <div class="about container">
+        <h2>Description</h2>
+        <div class="paragraph-container">
+      <p>PlayerUnknown's Battlegrounds (PUBG) is a widely popular battle royale game that has taken the gaming world by storm since its release in 2017. Developed by PUBG Corporation, a subsidiary of Krafton, Inc., PUBG offers an intense and immersive multiplayer experience that has captivated millions of players worldwide.
+
+        In PUBG, players are dropped onto a large map where they must fight against each other in a last-man-standing battle. The objective is to be the sole survivor by eliminating opponents and outlasting the competition. Players start with no equipment and must scavenge for weapons, ammunition, armor, and other resources scattered across the map. The game combines elements of strategy, teamwork, and quick reflexes, making each match a thrilling and adrenaline-pumping experience.
+        
+        The game's map features diverse landscapes, ranging from dense forests and rural villages to sprawling cities and military bases. This variety adds depth and complexity to gameplay, as players must adapt their strategies based on the terrain and available resources. The shrinking play area, enforced by an enclosing circle, adds a sense of urgency and forces players into intense encounters as the match progresses.</p>
+      </div>
+      </div>
+      <!-- Screenshots -->
+      <div class="screenshots container">
+        <h2>Screenshot</h2>
+          <div class="screenshot-content">
+            <img src="image/p1.webp" alt="">
+            <img src="image/p2.jpg" alt="">
+            <img src="image/p3.jpg" alt="">
+          </div>
+      </div>
+    </div>
+    <div class="download">
+      <h2>Download links</h2>
+      <div class="download-links">
+       
+        <a href="installpage.html">For Windows</a>
+      </div>
+    </div>
+    <footer class="container">
+      <div class="content">
+          <div class="sect aboutus">
+              <h2>Restriction</h2>
+              <p>All rights reserved. Game,  Games store, the Games store logo, Fortnite, the Fortnite logo, Unreal, Unreal Engine, the Unreal Engine logo, Unreal Tournament, and the Unreal Tournament logo are trademarks or registered trademarks of Epic Games, Inc. in the United States of America and elsewhere. Other brands or product names are the trademarks of their respective owners. </p>
+              <ul>
+                  <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
+                  <li><a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter"></i></a></li>
+                  <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                  <li><a href="https://www.youtube.com/"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+              </ul>
+          </div>
+          <!-- 2nd div -->
+          <div class="sect quicklinks">
+              <h2>Quick Links</h2>
+              <ul>
+                  <li><a href="login.html">Login</a></li>
+                  <li><a href="game1.html">Home</a></li>
+                  <li><a href="discover.html">Discover</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contactus.html">Contact us</a></li>
+              </ul>
+          </div>
+          <!-- 3rd div -->
+          <div class="sect contactus">
+              <h2>Website Terms of Use</h2>
+              <ul>
+                  <!-- <li>
+                      <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                      <span>MC 460 F Green Town Shah Faisal Colony<br>Karachi</span>
+                  </li> -->
+                  <li>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Store Refund Policy</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      </footer>
+    <div class="copyright container">
+        <a href="" class="logo">Game<span>Store</span></a>
+        <p>&#169;Game Store All Rights Reserved</p>
+    </div>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script>
+        $(document).ready(function() {
+          var video = $('#myVideo')[0]; 
+          var restartButton = $('#restartButton');
+          var muteButton = $('#muteButton');
+          var unmuteButton = $('#unmuteButton');
+         
+          // Event handler for the restart button click
+          restartButton.click(function() {
+            video.currentTime = 0; // Set the current time to 0 (restart)
+            video.play(); // Play the video
+            });
+            // Event handler for the mute button click
+             muteButton.click(function() {
+             video.volume = 0; // Mute the video
+            });
+    
+             // Event handler for the unmute button click
+              unmuteButton.click(function() {
+               video.volume = 1; // Unmute the video
+          });
+        });
+
+        $(document).ready(function(){
+          $(".bellicon").click(function(){
+            $(".notification").toggle('slow');
+          });
+        });
+         
+      </script>
+  
+  <script src="package/swiper-bundle.min.js"></script>
+  
+    <script src="script1.js"></script>
+</body>
+
+</html>

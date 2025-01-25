@@ -1,0 +1,41 @@
+{
+    "gamesList": [
+      {
+        "image": "image/trending7.png",
+        "title": "Halo Infinite",
+        "price": "$80",
+        "downloadLink": "download15.html"
+      },
+      {
+        "image": "image/valorant.jpg",
+        "title": "Valorant",
+        "price": "Free",
+        "downloadLink": "downnload.html"
+      },
+      {
+        "image": "image/trending4.jpg",
+        "title": "Ghost of Tsushima",
+        "price": "$42",
+        "downloadLink": "download12.html"
+      },
+      {
+        "image": "image/naraka.jpg",
+        "title": "Naraka: Bladepoint",
+        "price": "Free",
+        "downloadLink": "dowwnload2.html"
+      },
+      {
+        "image": "image/new7.png",
+        "title": "Fortnite",
+        "price": "Free",
+        "downloadLink": "download7.html"
+      },
+      {
+        "image": "image/trending2.jpg",
+        "title": "Battlefield 2042",
+        "price": "$42",
+        "downloadLink": "download11.html"
+      }
+    ]
+  }
+  

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assassin’s Creed Valhalla</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="package/swiper-bundle.min.css">
+</head>
+<body>
+    <header>
+         <div class="nav container">
+            <a href="game1.html" class="logo">Game <span>Store</span></a>
+        
+         <div class="nav-icon">
+            <i class="fa-regular fa-bell fa-bounce bx bellicon" ><span></span></i>
+            
+            <div class="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+         </div>
+
+         <div class="menu">
+          <img src="image/menu.png" alt="">
+          <div class="navbar">
+              <li><a href="game1.html">Login</a></li>
+              <li><a href="game1.html">Home</a></li>
+              <li><a href="discover.html">Discover</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contactus.html">Contact us</a></li>
+          </div>
+       </div>
+
+         <!-- notification  -->
+         <div class="notification">
+           <div class="notification-box">
+            <i class="fa-solid fa-circle-check bx"></i>
+            <p>Congratulation,Your Game download successfully</p>
+           </div>
+           <div class="notification-box box-color">
+            <i class="fa-sharp fa-solid fa-circle-xmark bx"></i>
+            <p>Could  not apply changes</p>
+           </div>
+         </div>
+         </div>
+    </header>
+<!-- video -->
+    <div class="video-container container">
+        <video id="myVideo" src="video/Assassin’s Creed Valhalla_ First Look Gameplay Trailer.mp4" autoplay ></video>
+        <div class="next-page">
+          <button id="restartButton">Start Video</button>
+          <button id="muteButton">Mute</button>
+          <button id="unmuteButton">Unmute</button>
+       </div>
+      <!-- about -->
+      <div class="about container">
+        <h2>Description</h2>
+        <div class="paragraph-container ">
+        <p>Assassin's Creed Valhalla is an action-adventure video game developed and published by Ubisoft. Set in the Viking Age, the game takes players on a captivating journey through 9th-century England and Norway. As the player assumes the role of Eivor, a fierce Viking warrior, they embark on an epic quest to build a new settlement for their clan and forge alliances with other Viking leaders.
+
+            The game offers a vast open-world environment, allowing players to explore the stunning landscapes of medieval England, from lush green fields to snow-capped mountains. Throughout the adventure, players will engage in intense combat using a variety of weapons, including axes, swords, and shields, as well as the iconic hidden blade.
+            
+            As Eivor, players must make crucial decisions that will shape the fate of their Viking clan and impact the outcome of the game's narrative. They can also customize their character's appearance, gear, and abilities to suit their playstyle and create a truly unique Viking warrior.
+            
+            Assassin's Creed Valhalla also features a rich storyline filled with intriguing characters, historical events, and mythical elements that immerse players in the Viking culture and mythology. With its engaging gameplay, stunning visuals, and deep storytelling, the game has captivated players worldwide and earned critical acclaim for its compelling portrayal of the Viking era.</p>
+      </div>
+      </div>
+      <!-- Screenshots -->
+      <div class="screenshots container">
+        <h2>Screenshot</h2>
+          <div class="screenshot-content">
+            <img src="image/Val1.jpg" alt="">
+            <img src="image/val2.jpg" alt="">
+            <img src="image/val3.jpg" alt="">
+          </div>
+      </div>
+    </div>
+    <div class="download">
+      <h2>Download Game</h2>
+      <div class="download-links">
+        
+        <a href="credit3.html">Buy Now</a>
+      </div>
+    </div>
+  
+      <footer class="container">
+        <div class="content">
+            <div class="sect aboutus">
+                <h2>Restriction</h2>
+                <p>All rights reserved. Game,  Games store, the Games store logo, Fortnite, the Fortnite logo, Unreal, Unreal Engine, the Unreal Engine logo, Unreal Tournament, and the Unreal Tournament logo are trademarks or registered trademarks of Epic Games, Inc. in the United States of America and elsewhere. Other brands or product names are the trademarks of their respective owners. </p>
+                <ul>
+                    <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.youtube.com/"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+            <!-- 2nd div -->
+            <div class="sect quicklinks">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="game1.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contactus.html">Contact us</a></li>
+                </ul>
+            </div>
+            <!-- 3rd div -->
+            <div class="sect contactus">
+                <h2>Website Terms of Use</h2>
+                <ul>
+                  
+                    <li>
+                      <a href="#">Terms of Service</a>
+                      <a href="#">Privacy Policy</a>
+                      <a href="#">Store Refund Policy</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </footer>
+    <div class="copyright container">
+        <a href="" class="logo">Game<span>Store</span></a>
+        <p>&#169;Game Store All Rights Reserved</p>
+    </div>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script>
+        $(document).ready(function() {
+          var video = $('#myVideo')[0]; 
+          var restartButton = $('#restartButton');
+          var muteButton = $('#muteButton');
+          var unmuteButton = $('#unmuteButton');
+         
+          // Event handler for the restart button click
+          restartButton.click(function() {
+            video.currentTime = 0; // Set the current time to 0 (restart)
+            video.play(); // Play the video
+            });
+            // Event handler for the mute button click
+             muteButton.click(function() {
+             video.volume = 0; // Mute the video
+            });
+    
+             // Event handler for the unmute button click
+              unmuteButton.click(function() {
+               video.volume = 1; // Unmute the video
+          });
+        });
+
+        $(document).ready(function(){
+          $(".bellicon").click(function(){
+            $(".notification").toggle('slow');
+          });
+        });
+         
+      </script>
+  
+  <script src="package/swiper-bundle.min.js"></script>
+  
+    <script src="script1.js"></script>
+</body>
+
+</html>

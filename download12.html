@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assassin’s Creed Valhalla</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="package/swiper-bundle.min.css">
+</head>
+<body>
+    <header>
+         <div class="nav container">
+            <a href="game1.html" class="logo">Game <span>Store</span></a>
+        
+         <div class="nav-icon">
+            <i class="fa-regular fa-bell fa-bounce bx bellicon" ><span></span></i>
+            
+            <div class="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+         </div>
+
+         <div class="menu">
+          <img src="image/menu.png" alt="">
+          <div class="navbar">
+              <li><a href="game1.html">Login</a></li>
+              <li><a href="game1.html">Home</a></li>
+              <li><a href="discover.html">Discover</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contactus.html">Contact us</a></li>
+          </div>
+       </div>
+
+         <!-- notification  -->
+         <div class="notification">
+           <div class="notification-box">
+            <i class="fa-solid fa-circle-check bx"></i>
+            <p>Congratulation,Your Game download successfully</p>
+           </div>
+           <div class="notification-box box-color">
+            <i class="fa-sharp fa-solid fa-circle-xmark bx"></i>
+            <p>Could  not apply changes</p>
+           </div>
+         </div>
+         </div>
+    </header>
+<!-- video -->
+    <div class="video-container container">
+        <video id="myVideo" src="video/Ghost of Tsushima - A Storm is Coming Trailer _ PS4.mp4" autoplay ></video>
+        <div class="next-page">
+          <button id="restartButton">Start Video</button>
+          <button id="muteButton">Mute</button>
+          <button id="unmuteButton">Unmute</button>
+       </div>
+      <!-- about -->
+      <div class="about container">
+        <h2>Description</h2>
+        <div class="paragraph-container ">
+        <p>Ghost of Tsushima is an action-adventure game developed by Sucker Punch Productions and published by Sony Interactive Entertainment. Set in feudal Japan during the late 13th century, the game follows the story of Jin Sakai, a skilled samurai warrior, as he embarks on a quest to protect his homeland, the island of Tsushima, from the Mongol invasion.
+
+            As the last surviving member of his clan, Jin faces the daunting task of challenging the ruthless Mongol forces led by the cunning and merciless General Khotun Khan. Determined to save his people and uphold the samurai code, Jin must adapt his combat techniques and embrace unconventional tactics to combat the overwhelming enemy.
+            
+            Ghost of Tsushima offers a breathtaking open-world environment inspired by the rich landscapes and traditions of ancient Japan. Players can explore lush forests, serene shrines, vibrant fields, and hauntingly beautiful landscapes that reflect the cultural and historical authenticity of the period.
+            
+            Throughout the game, players can choose to follow either the traditional path of the honorable samurai or embrace the way of the ghost, utilizing stealth, deception, and guerrilla warfare to defeat the invaders. This moral choice adds depth and complexity to the character development and storytelling, as players must grapple with the consequences of their actions.</p>
+      </div>
+      </div>
+      <!-- Screenshots -->
+      <div class="screenshots container">
+        <h2>Screenshot</h2>
+          <div class="screenshot-content">
+            <img src="image/gh1.jpg" alt="">
+            <img src="image/gh2.jpg" alt="">
+            <img src="image/gh3.png" alt="">
+          </div>
+      </div>
+    </div>
+    <div class="download">
+      <h2>Download Game</h2>
+      <div class="download-links">
+        
+        <a href="credit4.html">Buy Now</a>
+      </div>
+    </div>
+  
+      <footer class="container">
+        <div class="content">
+            <div class="sect aboutus">
+                <h2>Restriction</h2>
+                <p>All rights reserved. Game,  Games store, the Games store logo, Fortnite, the Fortnite logo, Unreal, Unreal Engine, the Unreal Engine logo, Unreal Tournament, and the Unreal Tournament logo are trademarks or registered trademarks of Epic Games, Inc. in the United States of America and elsewhere. Other brands or product names are the trademarks of their respective owners. </p>
+                <ul>
+                    <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.youtube.com/"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+            <!-- 2nd div -->
+            <div class="sect quicklinks">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="game1.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contactus.html">Contact us</a></li>
+                </ul>
+            </div>
+            <!-- 3rd div -->
+            <div class="sect contactus">
+                <h2>Website Terms of Use</h2>
+                <ul>
+                  
+                    <li>
+                      <a href="#">Terms of Service</a>
+                      <a href="#">Privacy Policy</a>
+                      <a href="#">Store Refund Policy</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </footer>
+    <div class="copyright container">
+        <a href="" class="logo">Game<span>Store</span></a>
+        <p>&#169;Game Store All Rights Reserved</p>
+    </div>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script>
+        $(document).ready(function() {
+          var video = $('#myVideo')[0]; 
+          var restartButton = $('#restartButton');
+          var muteButton = $('#muteButton');
+          var unmuteButton = $('#unmuteButton');
+         
+          // Event handler for the restart button click
+          restartButton.click(function() {
+            video.currentTime = 0; // Set the current time to 0 (restart)
+            video.play(); // Play the video
+            });
+            // Event handler for the mute button click
+             muteButton.click(function() {
+             video.volume = 0; // Mute the video
+            });
+    
+             // Event handler for the unmute button click
+              unmuteButton.click(function() {
+               video.volume = 1; // Unmute the video
+          });
+        });
+
+        $(document).ready(function(){
+          $(".bellicon").click(function(){
+            $(".notification").toggle('slow');
+          });
+        });
+         
+      </script>
+  
+  <script src="package/swiper-bundle.min.js"></script>
+  
+    <script src="script1.js"></script>
+</body>
+
+</html>

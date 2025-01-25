@@ -1,0 +1,62 @@
+{
+  "newgames":[
+  {
+    "image": "image/valorant.jpg",
+    "name": "Valorant",
+    "genre": "Action",
+    "rating": "4.7",
+    "downloadLink": "downnload.html"
+  },
+  {
+    "image": "image/naraka.jpg",
+    "name": "Naraka: Bladepoint",
+    "genre": "Action",
+    "rating": "4.7",
+    "downloadLink": "dowwnload2.html"
+  },
+  {
+    "image": "image/rocket.jpg",
+    "name": "Rocket League",
+    "genre": "Action",
+    "rating": "4.7",
+    "downloadLink": "download3.html"
+  },
+  {
+    "image": "image/l1.jpg",
+    "name": "League of Legends",
+    "genre": "Action",
+    "rating": "4.7",
+    "downloadLink": "download4.html"
+  },
+  {
+    "image": "image/new5.png",
+    "name": "Minecraft",
+    "genre": "Action",
+    "rating": "4.7",
+    "downloadLink": "download5.html"
+  },
+  {
+    "image": "image/new6.png",
+    "name": "PUBG Mobile",
+    "genre": "Action",
+    "rating": "4.7",
+    "downloadLink": "download6.html"
+  },
+  {
+    "image": "image/new7.png",
+    "name": "Fortnite",
+    "genre": "Action",
+    "rating": "4.7",
+    "downloadLink": "download7.html"
+  },
+  {
+    "image": "image/d1.jpg",
+    "name": "Destiny 2",
+    "genre": "Action",
+    "rating": "4.7",
+    "downloadLink": "download8.html"
+  }
+]
+}
+
+
